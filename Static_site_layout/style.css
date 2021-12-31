@@ -15,7 +15,9 @@ li{
 
 header{
     background-color: aqua;
-    height: 100%;
+    position : fixed;
+    top : 0;
+    width : 100%;
 }
 
 .navbar{
@@ -127,6 +129,28 @@ input[type=checkbox]{
 
 section{
     background-color:darkorchid;
+}
+
+/* Section 1 */
+.cover{
+    height: 600px;
+    width : 100%;
+    background-image: url("img/bg-1.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    object-fit : contain;
+    display : flex;
+    align-items : center;
+    justify-content : center;
+    flex-direction : column;
+}
+.cover h1{
+    font-size: 60px;
+    color : white;
+}
+.cover span{
+    font-size : 30px;
+    color : whitesmoke;
 }
 
 footer{
