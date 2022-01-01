@@ -283,14 +283,22 @@ section{
 }
 
 .contain{
-    position : absolute;
+    height: 350px;
+    display : flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
     color : white;
     
 }
-.sub-cover img {
-    width : 100%;
+.contain p{
+    font-size : 22px;
 }
 
 footer{
     background-color:chocolate;
+}
+.footer img{
+    width : 100%;
 }
