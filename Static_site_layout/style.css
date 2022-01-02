@@ -365,9 +365,32 @@ section{
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
+/* footer */
 footer{
     background-color:chocolate;
 }
+.footer {
+    position: relative;
+    text-align: center;
+    color : white;
+}
 .footer img{
     width : 100%;
+    position : absolute;
+    left : 0;
+    top : 0;
+}
+input{
+    background: transparent;
+    background-color: #b9b9b9;
+    width : 400px;
+    height : 30px;
+    border-radius: 5px;
+}
+textarea{
+    background: transparent;
+}
+.form{
+    position: absolute;
+    background:transparent;
 }
