@@ -368,6 +368,7 @@ section{
 /* footer */
 footer{
     background-color:chocolate;
+    display: block;
 }
 .footer {
     position: relative;
@@ -383,14 +384,25 @@ footer{
 input{
     background: transparent;
     background-color: #b9b9b9;
-    width : 400px;
+    width : 300px;
     height : 30px;
     border-radius: 5px;
+    border: none;
 }
 textarea{
-    background: transparent;
+    background: transparent; 
+    border: none;
+    background-color: #b9b9b9;
 }
-.form{
+.form-container{
+    width : 80%;
+    left : 10%;
+    top : 20%;
     position: absolute;
     background:transparent;
+}
+.form{
+    display : grid;
+    grid-template-columns: 2fr 1fr;
+    grid-gap: 16px;
 }
