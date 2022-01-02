@@ -129,7 +129,6 @@ input[type=checkbox]{
 }
 
 section{
-    background-color:darkorchid;
     margin-bottom: 50px;
     width : 100%;
 }
@@ -300,11 +299,10 @@ section{
 .grid-column{
     display : flex;
     justify-content:space-evenly;
-    background-color: aquamarine;
 }
 .col{
     width : 260px;
-    background-color:azure;
+    background-color:rgb(234, 243, 243);
 }
 .columns{
     margin : 20px;
@@ -333,6 +331,40 @@ section{
 .col4{
     margin-right: 50px;
 }
+
+/* Section 6 */
+
+.single-col{
+    display : flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.single-col img{
+    max-width : 85%;
+}
+
+.block{
+    width: 85%;
+    padding: 30px;
+    background-color: rgb(240, 243, 230);
+}
+.block h3{
+    color :#2e4242;
+    font-size: 25px;
+    margin-bottom: 12px;
+}
+.block button{
+    width : 150px;
+    height : 40px;
+    border-radius: 6px;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 25px;
+    background-color:white;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
 footer{
     background-color:chocolate;
 }
