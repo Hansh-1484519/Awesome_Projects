@@ -390,24 +390,44 @@ footer{
 }
 .form{
     display : grid;
-    grid-template-columns: 300px 1fr;
+    grid-template-columns: 400px 1fr;
     grid-gap: 16px;
 }
 input{
     box-sizing: border-box;
     grid-column : 1 / 2;
     background: transparent;
-    background-color: #b9b9b9;
-    width : 300px;
+    background-color: #bbb7b7;
+    width : 390px;
     height : 30px;
     border-radius: 5px;
     border: none;
+    text-indent: 5px;
+    align-self:flex-start;
 }
 textarea {
     grid-column : 2 / 3;
+    text-indent: 5px;
     background: transparent; 
     border: none;
     background-color: #b9b9b9;
+}
+.form-container button {
+    grid-column : 2 / 3;
+    width : 150px;
+    height : 40px;
+    border-radius: 6px;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 25px;
+    color : white;
+    background-color:rgb(83, 80, 80);
+    font-family:Cambria, Cochin, Georgia, Times,
+
+}
+.form-container button:hover{
+    color :#2e4242;
+    background-color: white;
 }
 
 .form-container h1 {
@@ -415,4 +435,5 @@ textarea {
 }
 .form-container p{
     font-size: 20px;
+    margin-bottom: 20px;
 }
