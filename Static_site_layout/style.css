@@ -379,9 +379,23 @@ footer{
     width : 100%;
     position : absolute;
     left : 0;
-    top : 0;
+    object-fit: contain;
+}
+.form-container{
+    width : 60%;
+    left : 20%;
+    top : 160px;
+    position: absolute;
+    background:transparent;
+}
+.form{
+    display : grid;
+    grid-template-columns: 300px 1fr;
+    grid-gap: 16px;
 }
 input{
+    box-sizing: border-box;
+    grid-column : 1 / 2;
     background: transparent;
     background-color: #b9b9b9;
     width : 300px;
@@ -389,20 +403,16 @@ input{
     border-radius: 5px;
     border: none;
 }
-textarea{
+textarea {
+    grid-column : 2 / 3;
     background: transparent; 
     border: none;
     background-color: #b9b9b9;
 }
-.form-container{
-    width : 80%;
-    left : 10%;
-    top : 20%;
-    position: absolute;
-    background:transparent;
+
+.form-container h1 {
+    font-size: 40px;
 }
-.form{
-    display : grid;
-    grid-template-columns: 2fr 1fr;
-    grid-gap: 16px;
+.form-container p{
+    font-size: 20px;
 }
