@@ -37,7 +37,7 @@ header{
 }
 
 .menu li:hover{
-    background-color: red;
+    background-color: rgb(112, 98, 98);
     border-radius: 5px ;
     transition: 0.3 ease;
 }
@@ -57,7 +57,7 @@ header{
 .dropdown{
     position : absolute; 
     display : none;
-    background-color: rgb(242, 252, 99);
+    background-color: rgb(117, 117, 110);
     padding: 1em 0;
     border-radius: 8px;
     top: 30px;
