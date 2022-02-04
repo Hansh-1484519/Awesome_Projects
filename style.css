@@ -415,7 +415,8 @@ textarea {
     text-indent: 5px;
     background: transparent; 
     border: none;
-    background-color: #aaa8a8;
+    background-color: #bbb7b7;
+    ;
 }
 .form-container button {
     width : 150px;
